@@ -1,0 +1,8 @@
+Bixo has some early, limited support for working with DMOZ data.
+
+The Open Directory Project makes available RDF dumps of their database,
+which are free for all to use. See http://rdf.dmoz.org/ for details.
+
+Bixo has some tools, located in the bixo.tools package, that can process
+the dmoz.xml file (1.9GB) to extract links (ExtractDmozLinks) and
+unique domains (ExtractDmozDomains).
